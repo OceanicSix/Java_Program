@@ -7,8 +7,8 @@ import java.lang.reflect.Modifier;
 class variable_info {
     private String q = "abc";
 
-    public void func() {
-
+    private void func() {
+        System.out.println("123");
     }
 
     public static void main(String[] args) throws Exception {

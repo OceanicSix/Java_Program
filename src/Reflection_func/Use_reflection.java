@@ -16,5 +16,11 @@ public class Use_reflection {
         String b = (String) f.get(a);
         System.out.println(b);
 
+
+        //call the private method
+        Method g=a.getClass().getDeclaredMethod("func");
+        g.setAccessible(true);
+        g.invoke(a);
+
     }
 }
