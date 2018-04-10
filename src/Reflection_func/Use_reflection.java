@@ -21,6 +21,7 @@ public class Use_reflection {
         Method g=a.getClass().getDeclaredMethod("func");
         g.setAccessible(true);
         g.invoke(a);
+        System.out.println("445");
 
     }
 }
