@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
 class variable_info {
-    private String q = "abc";
+    public String q = "abc";
 
     private void func() {
         System.out.println("123");
@@ -17,7 +17,9 @@ class variable_info {
         System.out.println(c.getName()); // Class info
 
 
-        Field[] field1 = c.getFields();   // Variable info
+        Field[] field1 = c.getDeclaredFields();   // getDeclaredFields() will
+        // show both private and public Variable info; getFields() will only show public
+        //variable info
         for (Field field : field1) {
             System.out.println(field.getName());
             System.out.println(field.getType());
