@@ -11,7 +11,7 @@ class TestPolicy {
         //based on the "S:\IntelliJ IDEA Community Edition 2017.3.5\jre64\lib\security\java.policy" file
         // ,property "java.version" should only be able to read not write
 
-        System.setProperty("java.version", "1.7.0_45");
+        System.setProperty("java.version", "10");
         String javaNewVersion = System.getProperty("java.version");
         System.err.println(javaNewVersion);
 

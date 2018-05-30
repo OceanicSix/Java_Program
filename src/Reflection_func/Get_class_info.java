@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
 class variable_info {
-    public String q = "abc";
+    private String q = "abc";
 
     private void func() {
         System.out.println("123");
