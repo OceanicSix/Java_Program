@@ -1,4 +1,4 @@
-package Synchronization.Partial_sync;
+package Synchronization.Block_sync;
 
 class SynchronizedCounter {
     public void addName(String name) {

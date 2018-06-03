@@ -26,10 +26,10 @@ grant {
 
 
         permission java.util.PropertyPermission "java.version", "read";
-        // means that "java.version" properties can be read//
+         // ----------------means that "java.version" properties can be read//
 
         permission java.util.PropertyPermission "java.version", "write";
-        // means that "java.version" properties can be written//
+        // ---------------means that "java.version" properties can be written//
 
 
 

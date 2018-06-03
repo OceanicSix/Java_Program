@@ -1,4 +1,5 @@
-package Synchronization.Whole_sync;
+
+package Synchronization.Method_sync;
 
 class SynchronizedCounter {
     private int c = 0;

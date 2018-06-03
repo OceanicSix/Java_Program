@@ -13,7 +13,7 @@ class TestPolicy {
 
         System.setProperty("java.version", "10");
         String javaNewVersion = System.getProperty("java.version");
-        System.err.println(javaNewVersion);
+        System.err.println(javaNewVersion);// because the security manager is disabled by default
 
     }
 }

@@ -1,3 +1,4 @@
+//implementing Runnable as Anonymous
 package Mulitthread.anonymous_runnable;
 
 class PrintNumbers {

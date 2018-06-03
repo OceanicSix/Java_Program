@@ -1,3 +1,5 @@
+//Use implement the runnable method to implement the multithreads
+
 package Mulitthread.Implement;
 
 class PrintNumbers {

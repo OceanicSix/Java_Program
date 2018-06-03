@@ -1,3 +1,4 @@
+//Use extends method to implement the multithreads
 package Mulitthread.Iheritance;
 
 class PrintNumbers {
