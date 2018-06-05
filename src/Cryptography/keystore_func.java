@@ -18,7 +18,7 @@ public class keystore_func {
         //load the key store
         FileInputStream is =new FileInputStream("C:\\Windows\\System32\\mystore.jks");
         KeyStore key_store=KeyStore.getInstance(KeyStore.getDefaultType());
-        key_store.load(is,"123456".toCharArray()); //keystore's password
+        key_store.load(is,"123456".toCharArray()); //123456 is keystore's password
 
         //Get public key, will get (e,n)
         Certificate cert=key_store.getCertificate("ocean"); //ocean is alias
