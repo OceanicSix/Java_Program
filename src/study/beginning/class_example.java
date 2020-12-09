@@ -73,10 +73,18 @@ public class class_example {
         // Clear the balance.
         balance = 0;
     }
+
+    public int printStatment(){
+        System.out.println("printing");
+        return 1;
+    }
     public static void main(String[] args){
 
 
         class_example machine1 = new class_example(10);
         System.out.println(machine1.getBalance());
+        System.out.println(machine1.printStatment());
+        String a = "red";
+        System.out.println(a.length());
     }
 }
