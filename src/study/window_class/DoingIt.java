@@ -71,7 +71,8 @@ public class DoingIt {
 //        myWindow.clearOut();
 //        myWindow.writeOutLine("ex04 here");
         int a = 12;
-        double b = 12.0;
+        double b = 12;
+
         myWindow.writeOutLine(b);
         String c = "123";
         boolean f = true;
