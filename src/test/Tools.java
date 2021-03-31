@@ -12,7 +12,9 @@ public class Tools {
         return result;
 
     }
+    public void add(){
 
+    }
     public static boolean isNumeric(String str) {
         return str.matches("-?\\d+(\\.\\d+)?");
     }

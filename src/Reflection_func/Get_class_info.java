@@ -15,17 +15,18 @@ class variable_info {
         variable_info a = new variable_info();
         Class c = variable_info.class;
         System.out.println(c.getName()); // Class info
+        c.getInterfaces();
+        c.getModifiers();
+        c.getSuperclass();
 
 
         Field[] field1 = c.getDeclaredFields();   // getDeclaredFields() will
-        // show both private and public Variable info; getFields() will only show public
         //variable info
         for (Field field : field1) {
             System.out.println(field.getName());
             System.out.println(field.getType());
             int modifiers = field.getModifiers();
             System.out.println(Modifier.toString(modifiers));
-
         }
 
         Method[] method1 = c.getDeclaredMethods();// Method info

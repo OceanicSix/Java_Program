@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class EmployeeList {
     ArrayList<Employee> list;
 
+
     public EmployeeList() {
         list = new ArrayList<>();
 

@@ -4,9 +4,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class Use_reflection {
-    public static void name() {
-
-    }
 
     public static void main(String[] args) throws Exception {
         variable_info a = new variable_info();

@@ -1,6 +1,7 @@
 package test;
 
-
+import java.lang.reflect.*;
+import java.security.AccessController;
 import java.security.cert.TrustAnchor;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,23 +10,19 @@ import java.util.Random;
 
 import java.io.*;
 
+import java.lang.System;
+
+
+
 public class test {
+    public void add(){
 
-
-
+    }
     public static void main(String[] args) {
-        try {
-            FileReader a = new FileReader("test.txt");
-            Scanner parser = new Scanner(a);
-            while(parser.hasNextLine()) {
-                String[] b = parser.nextLine().split(",");
-                System.out.println(b[0]);
-            }
+        test.class.getMethods();
 
-        }
-        catch (IOException e) {
-            System.out.println("there is an error");
-        }
     }
 }
+
+
 
