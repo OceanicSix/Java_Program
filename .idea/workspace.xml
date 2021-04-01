@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3a21d55-f5b8-438f-9ef1-0326bf554b31" name="Default" comment="1" />
+    <list default="true" id="f3a21d55-f5b8-438f-9ef1-0326bf554b31" name="Default" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/Access_control/policy_file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hash_generator/my_hash_func/MessageDigestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hash_generator/my_hash_func/SecureUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security_manager/CustomPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security_manager/SecureUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security_manager/program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Program/Access_control/TestPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Program/Access_control/TestPolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Program/Reflection_func/Use_reflection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Program/Reflection_func/Use_reflection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy_file" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security_manager/policy_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Access_control/Java_version.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Access_control/Java_version.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -352,26 +364,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/Android_sdk" />
-    <property name="last_opened_file_path" value="D:/Google Drive/辅导/FIT5003/S2/Week4/Script" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Security_manager" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\github\java_program\src\Access_control" />
+      <recent name="C:\Users\ASUS\Desktop\github\java_program\src\Hash_generator\my_hash_func" />
       <recent name="C:\Users\ASUS\Desktop\github\java_program\src\test" />
       <recent name="C:\Users\ASUS\Desktop\github\java_program\src\study\classs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\github\java_program\src\Security_manager" />
       <recent name="C:\Users\ASUS\Desktop\github\java_program\src\study\data_type" />
       <recent name="C:\Users\ASUS\Desktop\github\java_program\src\study" />
       <recent name="C:\Users\ASUS\Desktop\github\java_program\src\study\window_class" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Security_manager" />
       <recent name="study.beginning" />
       <recent name="study.week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Use_reflection">
+  <component name="RunManager" selected="Application.SecureUtils">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -379,13 +395,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="EmployeeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.EmployeeList" />
+    <configuration name="MessageDigestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hash_generator.my_hash_func.MessageDigestTest" />
       <module name="Program" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="Hash_generator.my_hash_func.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,13 +409,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Use_reflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection_func.Use_reflection" />
+    <configuration name="SecureUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hash_generator.my_hash_func.SecureUtils" />
       <module name="Program" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Security_manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflection_func.*" />
+          <option name="PATTERN" value="Hash_generator.my_hash_func.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecureUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Security_manager.SecureUtils" />
+      <module name="Program" />
+      <option name="VM_PARAMETERS" value="-Djava.security.policy==policy_file " />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Security_manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Security_manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPolicy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="S:\Program Files\Java\jdk-10" />
+      <option name="MAIN_CLASS_NAME" value="Access_control.TestPolicy" />
+      <module name="Program" />
+      <option name="VM_PARAMETERS" value="-Djava.security.policy==policy_file " />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Access_control" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Access_control.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,41 +460,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="10" />
-      <option name="MAIN_CLASS_NAME" value="test.test" />
+    <configuration name="program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="S:\Program Files\Java\jdk-10" />
+      <option name="MAIN_CLASS_NAME" value="Security_manager.program" />
       <module name="Program" />
+      <option name="VM_PARAMETERS" value="-Djava.security.policy==policy_file" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Security_manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_overflow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test_overflow" />
-      <module name="Program" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="variable_info" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection_func.variable_info" />
-      <module name="Program" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Reflection_func.*" />
+          <option name="PATTERN" value="Security_manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -481,19 +502,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.EmployeeList" />
-      <item itemvalue="Application.test_overflow" />
-      <item itemvalue="Application.variable_info" />
-      <item itemvalue="Application.Use_reflection" />
+      <item itemvalue="Application.MessageDigestTest" />
+      <item itemvalue="Application.program" />
+      <item itemvalue="Application.TestPolicy" />
+      <item itemvalue="Application.SecureUtils" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Use_reflection" />
-        <item itemvalue="Application.variable_info" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.test_overflow" />
-        <item itemvalue="Application.EmployeeList" />
+        <item itemvalue="Application.SecureUtils" />
+        <item itemvalue="Application.SecureUtils" />
+        <item itemvalue="Application.program" />
+        <item itemvalue="Application.TestPolicy" />
+        <item itemvalue="Application.MessageDigestTest" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617233814196</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1">
+      <created>1617234124447</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617234124447</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">

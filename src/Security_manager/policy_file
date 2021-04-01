@@ -5,9 +5,21 @@ grant codeBase "file:${{java.ext.dirs}}/*" {
         permission java.security.AllPermission;
 };
 
-// default permissions granted to all domains
+grant codeBase "file:/C:/Users/ASUS/Desktop/github/java_program/out/production/Program/" {
+     permission java.util.PropertyPermission "java.version", "read";
+     permission Security_manager.CustomPermission "my-operation";
+     permission Security_manager.CustomPermission "computeHash";
+};
+
+
+
+
 
 grant {
+
+        //permission java.lang.RuntimePermission "createSecurityManager";
+        //permission java.lang.RuntimePermission "setSecurityManager";
+
         // Allows any thread to stop itself using the java.lang.Thread.stop()
         // method that takes no argument.
         // Note that this permission is granted by default only to remain
@@ -25,10 +37,10 @@ grant {
 
 
 
-        permission java.util.PropertyPermission "java.version", "read";
+          //permission java.util.PropertyPermission "java.version", "read";
          // ----------------means that "java.version" properties can be read//
 
-        permission java.util.PropertyPermission "java.version", "write";
+        //permission java.util.PropertyPermission "java.version", "write";
         // ---------------means that "java.version" properties can be written//
 
 
